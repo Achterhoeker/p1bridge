@@ -104,7 +104,8 @@ sed -n '1p' /run/p1-power-watt
 
 ## Other integrations
 
-Besides ser2net, software like Domoticz can also read directly from the virtual P1 port at /run/p1-bridge/tty.
+Besides ser2net, software like Domoticz can also read directly from the virtual P1 port but for domoticz it needs to be placed at: 
+VIRTUAL_SERIAL = "/dev/ttyUSB-P1-Domoticz"
 
 ## Useful debugging commands
 
